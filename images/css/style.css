@@ -1,0 +1,91 @@
+/******* Global Settings *******/
+body {
+    color:343434;
+    margin: 30px;
+    padding: 30px;
+    font-family:  'Zen Old Mincho', serif;
+}
+a {
+    color:firebrick;
+    background: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background: rgba(56, 12, 12, 90%)
+}
+
+img {
+    width:300px;
+}
+
+.wrap {
+    width: 900px;
+    margin: auto;
+    width: 1000px;
+    padding: 50px 100px 50px;
+}
+
+
+
+
+/******** Header ******/
+header {
+    background: rgb(103, 128, 57);
+    padding: 20px;
+}
+
+
+
+
+/******* Site Information/Background ******/
+.background {
+    background: rgb(103, 128, 57);
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+
+
+
+/******* Services Settings *******/
+.services {
+    background: rgb(103, 128, 57);
+    margin-top: 50px;
+}
+
+
+/******* Bio *******/
+.bio {
+    background: rgb(103, 128, 57);
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+
+
+/******* Footer ******/
+footer {
+    background: rgb(103, 128, 57);
+    padding: 20px;
+}
+
+
+
+/******** EXTRAS ********/
+.inline {
+    display: inline-block;
+    margin: 25px;
+    margin-bottom: 5px;
+}
+
+.space {
+    padding: 10px 10px 10px;
+    margin-bottom: 50px;
+}
+
+.italics {
+    font-style: italic;
+}
