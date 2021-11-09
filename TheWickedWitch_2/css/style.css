@@ -1,0 +1,126 @@
+/*****************Body,HTML ************************/
+body, html {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  min-width: 950px;
+  overflow: visible;
+
+}
+#Home {background-image:url(../images/Bg_CM_1-S.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;}
+#Services {background-image:url(../images/Bg_CM_2-S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+#Connect {background-image:url(../images/Bg_CD-S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+#Care {background-image:url(../images/Bg_CT-S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.ga-1 { grid-area: service1; }
+.ga-2 { grid-area: service2; }
+.ga-3 { grid-area: link; }
+    
+.gc-main {
+    display: grid;
+    grid-template-areas: 
+    'service1 service2'
+    'service1 service2';
+    grid-gap: 10px;
+    background-color: wheat;
+    border-radius: 25px;
+    text-align: Left;
+}
+    
+.grid-main > div {
+    background-color: darkslategrey;
+    text-align: left;
+}
+    
+@font-face {
+    font-family: "My Font";
+        src: url(../Font/ZenOldMincho-Regular.ttf);
+}
+
+
+/**************** Style tab links *******************/
+.tablink {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px 60px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 50px;
+}
+
+
+.tabcontent {
+    color: darkslategrey;
+    display: none;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+  }
+
+img {
+    width:150px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border-radius: 55%;
+}
+
+.fix img{
+    height: 15%;
+    border-radius: 5px;
+    float: none;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a {
+    color:firebrick;
+    background: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* a:hover {
+    background: wheat;
+} */
+
+.tablink:hover {
+    background-color: wheat;
+}
+/********************* Misc. Settings *******************/
+.center {
+    text-align: center;
+}
+
+.space {
+    margin: 10px;
+}
+
+.hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+}
