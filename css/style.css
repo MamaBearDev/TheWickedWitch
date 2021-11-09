@@ -1,11 +1,11 @@
 /*****************Body,HTML ************************/
 body, html {
-  margin: 0;
   width: 100%;
   height: 100%;
-  min-height: 555px;
-  min-width: 900px;
+  min-height: 700px;
+  min-width: 950px;
   overflow: visible;
+
 }
 #Home {background-image:url(../images/Bg_CM_1-S.jpg);
     background-size: cover;
@@ -49,33 +49,46 @@ body, html {
 
 /**************** Style tab links *******************/
 .tablink {
-  background-color:transparent;
-  /* margin-top: 10%; */
-  color: white;
-  float: left;
-  border: black;
-  box-sizing: border-box;
-  border-style: double;
-  outline: black;
-  outline-style: groove;
-  cursor: pointer;
-  font-size: 17px;
-  width: 25%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px 60px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 50px;
+}
+
+.hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
 }
 
 .tabcontent {
     color: darkslategrey;
     display: none;
-    padding: 5%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     height: 100%;
   }
+
 .wrap {
+    margin-top: 75px;
     max-width: auto;
     max-height: auto;
     padding: 3%;
     background-color: wheat;
     border-radius: 25px;
-    margin-bottom: 10px;
 }
 
 img {
@@ -86,6 +99,17 @@ img {
     border-radius: 55%;
 }
 
+.fix img{
+    height: 15%;
+    border-radius: 5px;
+    float: none;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 a {
     color:firebrick;
     background: black;
@@ -94,22 +118,18 @@ a {
     border-radius: 4px;
 }
 
-a:hover {
-    background: rgba(56, 12, 12, 90%)
-}
+/* a:hover {
+    background: wheat;
+} */
 
 .tablink:hover {
-    background-color: black;
+    background-color: wheat;
 }
 /********************* Misc. Settings *******************/
 .center {
     text-align: center;
 }
 
-.headingspace {
-    background-color: transparent;
-}
-
 .space {
-    padding: 2%;
+    margin: 10px;
 }
