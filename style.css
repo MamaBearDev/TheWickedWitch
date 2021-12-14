@@ -1,0 +1,480 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../font/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FuzzyBubbles;
+    src: url(../font/FuzzyBubbles/FuzzyBubbles-Regular.ttf);
+}
+
+@font-face {
+    font-family: MeowScript;
+    src: url(../font/MeowScript/MeowScript-Regular.ttf);
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    overflow: visible;
+    min-width: 1300px;
+
+}
+
+.rm {
+    padding: 0;
+    margin: 0;
+}
+
+.tp {
+    padding-top: 1%;
+}
+
+.s1 {
+    background-image: url(../images/old/Gill-cardsopenhandsfarther.jpg);
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h1 {
+    font-family: MeowScript;
+    text-shadow: 5px 5px rgba(28, 39, 28, 0.3);
+    font-size: 60px;
+    font-style: oblique 10deg;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: Dosis;
+    text-shadow: 5px 5px rgba(28, 39, 28, 0.3);
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline solid grey;
+    font-family: MeowScript;
+    font-size: 55px;
+}
+
+.s2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+nav ul {
+    padding: 25px;
+    text-align: center;
+    margin: 0; 
+}
+
+nav ul li {
+    width: 225px;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 45px;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: Dosis;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(112, 9, 57, 0.4),
+      transparent
+    );
+    transition: all 1000ms;
+}
+  
+nav a:hover:before {
+    left: 100%;
+}
+
+
+.s3 {
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.hd1 {
+    font-family: Dosis;
+    text-transform: small-caps;
+    width: 500px;
+    margin: 75px auto;
+    font-size: 20px;
+}
+
+.cbi {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 55px auto;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+.btn a {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+.btn {
+    text-decoration: none;
+    border: 1px solid rgb(102, 34, 57);
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    border-radius: 45px;
+    font-family: Dosis;
+  }
+  
+.btn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(150, 93, 120, 0.4);
+}
+  
+.btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(150, 93, 120, 0.4),
+      transparent
+    );
+    transition: all 1000ms;
+}
+  
+.btn:hover:before {
+    left: 100%;
+}
+
+.hd2 {
+    font-family: Dosis;
+    text-transform: small-caps;
+    width: 650px;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.fp1 {
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 3%;
+    border-radius: 50%;
+}
+
+.fp2 {
+    display: block;
+    float: right;
+    width: 245px;
+    height: auto;
+    position: relative;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.fp3 {
+    display: block;
+    float: left;
+    width: 150px;
+    height: auto;
+    position: relative;
+    margin-left: 8%;
+    border-radius: 50%;
+}
+
+.fp4 {
+    display: block;
+    float: right;
+    width: 275px;
+    height: auto;
+    position: relative;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.s4 {
+    padding: 25px;
+    height: 541px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+h4 {
+    width: 700px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: underline solid grey;
+    font-family: MeowScript;
+    font-size: 55px;
+    position: relative;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.sb1 {
+    width: 500px;
+}
+
+.si {
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 2%;
+    box-shadow: 0 0 45px rgba(190, 141, 141, 0.541);
+    border:1px solid rgb(102, 34, 57);
+}
+
+.s4p {
+    margin: 2px;
+    width: 700px;
+    text-align: justify;
+    font-family: Dosis;
+    font-size: 25px;
+
+}
+
+.s4b {
+    width: 100px;
+}
+
+.s4bdiv {
+    display: flex;
+    column-gap: 100px;
+    margin-left: 200px;
+}
+
+.s4b {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(104, 40, 40, 0.349);
+    color: whitesmoke;
+    font-family: Dosis;
+}
+
+.s5 {
+    display: flex;
+
+    align-items: center;
+}
+
+.sob1 {
+    min-width: 300px;
+    max-width: 400px;
+    padding: 2%;
+    margin: 1%;
+}
+
+h5 {
+    text-align: center;
+    font-family: MeowScript;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.s5p {
+    text-align: justify;
+    font-family: Dosis;
+    font-weight: bold;
+}
+
+.s5c {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+
+}   
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 15px 10px;
+    justify-content: space-around;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    padding: 8px;
+    margin: 3%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(139, 63, 63, 0.315);
+    box-shadow: 0 0 45px rgba(190, 141, 141, 0.541);
+    border-radius: 25px;
+}
+
+.tabs label:hover {
+    background-color: rgba(139, 63, 63, 0.115);
+    text-decoration: underline 1px rgba(190, 141, 141, 0.315);
+}
+
+.tabs .content {
+    width: 100%;
+    order: 1;
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label + .content {
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
+    padding-bottom: 4px;
+
+}
+
+.content {
+    padding: 5%;
+    text-align: justify;
+    min-width: 500px;
+    margin: 2%;
+    box-shadow: 0 0 45px rgba(190, 141, 141, 0.315);
+    border-radius: 25px;
+}
+
+.s5sp {
+    min-width: 150px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 65px;
+    float: right;
+    margin: 3%;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.s5pi {
+    font-family: Dosis;
+    font-size: 25px;
+    min-width: 600px;
+    max-width: 700px;
+    margin: 2%;
+}
+
+.s6 {
+    height: 450px;
+    background-color: black;
+    padding-top: 3%;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    margin: 75px auto;
+    width: 100%;
+    border-radius: 45px;
+}   
+
+h7 {
+    text-align: center;
+    font-family: MeowScript;
+    font-size: 45px;
+    padding-top: 5%;
+    margin-left: -18%;
+}
+
+.s6p {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: Dosis;
+    font-size: 15px;
+    width: 650px;
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.s6p1 {
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 3%;
+    border-radius: 25px;
+}
+
+.s6p2 {
+    display: block;
+    float: right;
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-right: 8%;
+    border-radius: 25px;
+}
+
+.fix {
+    margin-left: 19%;
+}
+
+.tnt {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Dosis;
+}
