@@ -40,6 +40,8 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 h1 {
@@ -70,6 +72,8 @@ h3 {
     justify-content: center;
     align-items: center;
     column-gap: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 nav ul {
@@ -466,4 +470,11 @@ h7 {
 
 .fix {
     margin-left: 19%;
+}
+
+.tnt {
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Dosis;
 }
