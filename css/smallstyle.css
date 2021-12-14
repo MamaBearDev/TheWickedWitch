@@ -22,7 +22,6 @@ body {
     background-size: cover;
 }
 
-
 .s1 {
     display: flex;
     flex-direction: column;
@@ -30,11 +29,10 @@ body {
     font-family: MeowScript;
     font-size: 30px;
     padding-top: 15px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     background-color: black;
     height: 145px;
-
 }
 
 .s2 {
@@ -78,7 +76,6 @@ body {
     height: auto;
     border-radius: 45px;
 }
-
 
 .rm {
     padding: 0;
@@ -124,7 +121,6 @@ h3{
     text-decoration: underline solid grey;
     font-family: MeowScript;
     font-size: 35px;
- 
 }
 
 .hd1 {
@@ -159,7 +155,7 @@ h3{
     padding: 1rem 3rem;
     color: black;
     text-transform: uppercase;
-  }
+}
   
 .btn {
     font-family: Dosis;
@@ -170,7 +166,7 @@ h3{
     padding: 16px;
     border-radius: 45px;
     
-  }
+}
   
 .btn:hover {
     box-shadow: 1px 1px 25px 10px rgba(150, 93, 120, 0.4);
