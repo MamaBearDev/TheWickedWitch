@@ -1,5 +1,7 @@
-/* @media only screen and (min-width: 1300px) and (max-width: 1900px) {
-     */
+@media screen and (min-width: 1300px){
+    
+}
+
 @font-face {
     font-family: Dosis;
     src: url(../font/Dosis/Dosis-VariableFont_wght.ttf);
@@ -18,7 +20,6 @@
 body {
     font-family: 'Courier New', monospace;
     overflow: visible;
-    min-width: 1300px;
 }
 
 .rm {

@@ -18,9 +18,10 @@
 body {
     min-width: 500px;
     max-width: 1299px;
-    background-image: url(/images/old/background3.1.jpg);
-    background-size: cover;
+    background-image: url(../images/old/background.jpg);
+    background-repeat: repeat;
 }
+
 
 .s1 {
     display: flex;
@@ -33,6 +34,7 @@ body {
     border-bottom-left-radius: 25px;
     background-color: black;
     height: 145px;
+   
 }
 
 .s2 {
@@ -77,6 +79,7 @@ body {
     border-radius: 45px;
 }
 
+
 .rm {
     padding: 0;
     margin: 0;
@@ -114,6 +117,7 @@ body {
     text-align: center;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    
 }
 
 h3{
@@ -155,7 +159,7 @@ h3{
     padding: 1rem 3rem;
     color: black;
     text-transform: uppercase;
-}
+  }
   
 .btn {
     font-family: Dosis;
@@ -166,7 +170,7 @@ h3{
     padding: 16px;
     border-radius: 45px;
     
-}
+  }
   
 .btn:hover {
     box-shadow: 1px 1px 25px 10px rgba(150, 93, 120, 0.4);
@@ -192,8 +196,8 @@ h3{
     padding: 25px;
     background-color: black;
     color: whitesmoke;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     text-align: center;
     justify-content: center;
     margin-top: 25px;
@@ -224,5 +228,106 @@ h4 {
     padding-top: 50px;
 }
 
+.s5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: whitesmoke;
+    margin: .2%;
+    padding: 3%;
+    margin-top: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: Dosis;
+}
+
+
+.s6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: whitesmoke;
+    margin-top: 25px;
+    padding: 3%;
+    font-family: Dosis;
+}
+
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 15px 10px;
+    justify-content: space-around;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs label {
+    padding: 8px;
+    margin: 3%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgba(139, 63, 63, 0.315);
+    box-shadow: 0 0 45px rgba(190, 141, 141, 0.541);
+    border-radius: 25px;
+}
+
+.tabs label:hover {
+    background-color: rgba(139, 63, 63, 0.115);
+    text-decoration: underline 1px rgba(190, 141, 141, 0.315);
+}
+
+.tabs .content {
+    width: 100%;
+    order: 1;
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label + .content {
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label {
+    padding-bottom: 4px;
+
+}
+
+.content {
+    padding: 5%;
+    text-align: justify;
+    min-width: 500px;
+    margin: 2%;
+    box-shadow: 0 0 45px rgba(190, 141, 141, 0.315);
+    border-radius: 25px;
+}
+
+.s5sp {
+
+    height: auto;
+    border-radius: 65px;
+    float: right;
+    margin: 3%;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.s5c {
+    display: none;
+}
+
+
+.s5pi {
+    font-family: Dosis;
+    font-size: 25px;
+    margin: 2%;
+}
 }
 
