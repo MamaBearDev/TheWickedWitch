@@ -387,7 +387,7 @@ h4 {
 }
 
 .s5pic {
-    background-image: url("../images/old/Services_BackgroundImg.jpg");
+    background-image: url("/images/old/Services_BackgroundImg.jpg");
     background-size: cover;
     padding: 5%;
     border-top-right-radius: 10px;

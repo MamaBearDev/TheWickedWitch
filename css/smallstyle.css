@@ -133,6 +133,7 @@ html {
 /*Black Button End */
 /*Button End*/
 
+
 .s1 {
     display: flex;
     flex-direction: column;
@@ -161,6 +162,7 @@ html {
 
 .fp3 {
     display: none;
+    visibility: hidden;
 }
 
 .fp4 {
@@ -182,6 +184,9 @@ html {
     display: none;
 }
 
+.s5pics{
+    display: none;
+}
 .cbi {
     width: 400px;
     height: auto;
@@ -196,6 +201,7 @@ html {
     color: whitesmoke;
     text-shadow: 5px 5px rgba(53, 92, 53, 0.425);
     margin-right: 2%;
+    font-size: 40px;
 }
 
 .mh {
@@ -337,6 +343,7 @@ h5 {
     margin: 2%;
     padding-bottom: 5%;
     text-align: justify;
+    font-size: 25px;
 }
 
 .s5pi {
